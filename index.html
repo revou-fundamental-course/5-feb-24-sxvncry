@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Temperature Convert</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="tittle">
+      <h1>Web Temperature Convert</h1>
+    </div>
+      <p>
+        Masukan suhu derajat Celsius(°C) ke kotak dibawah,lalu klik tombol<br>
+        konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit(°F)
+      </p>
+    <div class="formclass">
+      <label for="celsius">Celsius(°C):</label><br />
+      <input type="number" id="celsius" name="celsius" value="" /><br />
+      <button type="submit" onclick="konversi()">Konversi</button>
+      <button type="submit" onclick="reset()">Reset</button>
+      <button type="submit" onclick="reverse()">Reverse</button><br />
+      <label for="fahrenheit">Fahrenheit(°F):</label><br />
+      <input type="number" id="fahrenheit" name="fahrenheit" value="" /><br />
+      <label for="cara">Cara Kalkulasi</label><br />
+      <input type="text" id="cara" name="cara" value="" disabled/><br />
+    </div>
+    <script src="js/script.js"/>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.tittle {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #454545;
+}
+
+.tittle h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-left: .7rem;
+    margin-top: 1rem;
+    margin: 2rem;
+}
+
+.formclass{
+    margin-left: .7rem;
+    margin-top: 1rem;
+    margin: 2rem;
+}
+
+label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+input[type=number]{
+    padding: 15px 47px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #D0D4CA;
+    outline: none;
+}
+
+input[type=text]{
+    padding: 15px 47px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #D0D4CA;
+    outline: none;
+}
+
+button{
+    padding: 12px 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #D0D4CA;
+    outline: none;
+}
+
+/* hidden arrow number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}
